@@ -1,4 +1,4 @@
----Rẻ rách -skid Night-
+
 
 if game.PlaceId == 2753915549 then
     World1 = true
@@ -2532,7 +2532,7 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>ZyHub chào ae<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>ZyHub hello<Color=/>"):Display()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
     wait(.24)
@@ -2543,19 +2543,19 @@ spawn(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "ZyHub", HidePremium = false, IntroText = "ZyHub⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
+local Window = OrionLib:MakeWindow({Name = "Manh", HidePremium = false, IntroText = "Manh🤡🤡", SaveConfig = true, ConfigFolder = "NightHub"})
 
 
 
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "Manh",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://8192162908",
     Time = 5
 })
 wait(3)
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "Manh",
     Content = "đợi hub load config rồi mới sài nha",
     Image = "rbxassetid://8192162908",
     Time = 10
@@ -2624,19 +2624,19 @@ local SV = Window:MakeTab({
 })
 
 local D = Window:MakeTab({
-    Name = "🍍 trái ắc quỷ",
+    Name = "🍍 fruit",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
-    Name = "☣️ tộc V4",
+    Name = "☣️ race v4",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
-    Name = "🛒 cửa hàng",
+    Name = "🛒 market",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
@@ -2653,16 +2653,16 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("Script By Zy")
+W:AddLabel("Script By skid")
 
 local Section = W:AddSection({
     Name = "Update"
 })
 
 
-W:AddLabel("[+] Load Script Faster!")
-W:AddLabel("[+] Zy hub and FTS X HUB IS FRIEND")
-W:AddLabel("[✓]Vô discord ở đầu mục khác nha")
+W:AddLabel("[+] ...")
+W:AddLabel("[+] ...")
+W:AddLabel("[✓]...")
 local Section = W:AddSection({
     Name = "Status"
 })
@@ -3475,7 +3475,7 @@ M:AddToggle({
     })
 
 TweenChest = M:AddToggle({
-        Name = "Auto Chest [MUP]",
+        Name = "Auto Chest [CÓ THỂ BỊ BAND]",
         Default = false,
         Flag = "Auto Chest",
         Save = true,
