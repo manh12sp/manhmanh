@@ -1,4 +1,3 @@
----Rẻ rách -skid Night-
 
 if game.PlaceId == 2753915549 then
     World1 = true
@@ -2372,12 +2371,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "ZyHub"
+    local i = "Manh"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "ZyHub"
+        local i = "Manh"
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2532,7 +2531,7 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>ZyHub chào ae<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Manh chào ae<Color=/>"):Display()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
     wait(.24)
@@ -2543,19 +2542,19 @@ spawn(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "ZyHub", HidePremium = false, IntroText = "ZyHub⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
+local Window = OrionLib:MakeWindow({Name = "Manh", HidePremium = false, IntroText = "Manh", SaveConfig = true, ConfigFolder = "Manh"})
 
 
 
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "Manh",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://8192162908",
     Time = 5
 })
 wait(3)
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "Manh",
     Content = "đợi hub load config rồi mới sài nha",
     Image = "rbxassetid://8192162908",
     Time = 10
@@ -2653,7 +2652,7 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("Script By Zy")
+W:AddLabel("Script By Manh")
 
 local Section = W:AddSection({
     Name = "Update"
@@ -2661,7 +2660,7 @@ local Section = W:AddSection({
 
 
 W:AddLabel("[+] Load Script Faster!")
-W:AddLabel("[+] Zy hub and FTS X HUB IS FRIEND")
+W:AddLabel("[+] Manh hub and FTS X HUB IS FRIEND")
 W:AddLabel("[✓]Vô discord ở đầu mục khác nha")
 local Section = W:AddSection({
     Name = "Status"
@@ -8388,13 +8387,13 @@ pcall(function()
         if _G.AutoEliteHunter then
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
                 OrionLib:MakeNotification({
-                    Name = "ZyHub(Noitification)",
+                    Name = "Manh(Noitification)",
                     Content = "[EN] : Please cancel the farrm level quest (if any)",
                     Image = "rbxassetid://8192162908",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
-                    Name = "ZyHub(Noitification)",
+                    Name = "Manh(Noitification)",
                     Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu có)",
                     Image = "rbxassetid://8192162908",
                     Time = 9
@@ -8563,7 +8562,7 @@ spawn(function()
             if _G.AutoObservation then
                 if game:GetService("Players").LocalPlayer.VisionRadius.Value >= 3000 then
                     OrionLib:MakeNotification({
-                        Name = "ZyHub BOT",
+                        Name = "Manh BOT",
                         Content = "!!You Are Max Point!!",
                         Image = "rbxassetid://14919714384",
                         Time = 5
@@ -8712,7 +8711,7 @@ spawn(function()
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
             OrionLib:MakeNotification({
-                Name = "ZyHub",
+                Name = "Manh",
                 Content = "You not have beli or fragment!",
                 Image = "rbxassetid://8192162908",
                 Time = 5
@@ -8873,7 +8872,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "Manh BOT",
                             Content = "Not Have Superhuman",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8886,7 +8885,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "Manh BOT",
                             Content = "Not Have Death Step",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8899,7 +8898,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "Manh BOT",
                             Content = "Not Have SharkMan Karate",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8912,7 +8911,7 @@ spawn(function()
                         end
                     else
                         gOrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "Manh BOT",
                             Content = "Not Have Electric Claw",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8923,7 +8922,7 @@ spawn(function()
                         if game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon").Level.Value >= 400 or game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon").Level.Value >= 400 then
                             if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman",true), "Bring") then
                                 OrionLib:MakeNotification({
-                                    Name = "ZyHub BOT",
+                                    Name = "Manh BOT",
                                     Content = "Not Have Enough Material",
                                     Image = "rbxassetid://14919714384",
                                     Time = 5
@@ -8935,7 +8934,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "Manh BOT",
                             Content = "You Not Have Dragon Talon! ",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -11334,7 +11333,7 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "ZyHub",
+                    Name = "Manh",
                     Content = "Turn Off Hop Find Moon Please",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11342,7 +11341,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "ZyHub",
+                    Name = "Manh",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11350,7 +11349,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "ZyHub",
+                    Name = "Manh",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11358,7 +11357,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "ZyHub",
+                    Name = "Manh",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11371,7 +11370,7 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "ZyHub",
+        Name = "Manh",
         Content = "Loading script complete!, You can now enable the function!",
         Image = "rbxassetid://8192162908",
         Time = 5
@@ -11404,7 +11403,7 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "Manh",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://8192162908",
     Time = 5
