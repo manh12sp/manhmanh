@@ -1,3 +1,9 @@
+--[[ By windyisreal do don't skidder ty!
+--]]
+
+local windynoitify = loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter0/keysystemv2api/master/ui/notify_ui.lua"))()
+windynoitify.New("Welcome To Miku Community", 5)
+
 local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/FixedFluent.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
@@ -2192,29 +2198,29 @@ function getAllBladeHitsPlayers(Sizes)
 end
 
     local Window = Fluent:CreateWindow({
-    Title = "さま┊Windy•Hub" ,
-    SubTitle = "Version Beta",
+    Title = "Trash Hub V1" ,
+    SubTitle = "Beta [ Free ] by windyisreal",
     TabWidth = 120,
     Size = UDim2.fromOffset(480, 320),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Rose",
+    Theme = "White",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
 --Done
 --Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
-	About = Window: AddTab({ Title = "  Profile", Icon = "user" }),
-	Sh = Window:AddTab({ Title = "Shop ", Icon = "shopping-cart" }),
-	Settings = Window:AddTab({ Title = "Setting", Icon = "settings" }),
-    Main = Window:AddTab({ Title = " Main", Icon = "home" }),
-    Ms = Window:AddTab({ Title = " Misc", Icon = "align-vertical-distribute-center" }),    
-    Mt = Window:AddTab({ Title = " Material & Boss", Icon = "air-vent" }),    
-    De = Window:AddTab({ Title = "Fruit & Raid", Icon = "apple" }),    
-    St = Window:AddTab({ Title = " Status", Icon = "activity" }),    
-    Lc = Window:AddTab({ Title = " Local Player", Icon = "baby" }),   
-    RC = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),   
-    Se = Window:AddTab({ Title = "Sea Event", Icon = "waves" }),   
-    Qs = Window:AddTab({ Title = "Item", Icon = "arrow-up-down" }),  
+	About = Window: AddTab({ Title = "Profile Tab", Icon = "" }),
+	Sh = Window:AddTab({ Title = "Shop Tab", Icon = "" }),
+	Settings = Window:AddTab({ Title = "Setting Tab", Icon = "" }),
+    Main = Window:AddTab({ Title = "Main Tab", Icon = "" }),
+    Ms = Window:AddTab({ Title = "Misc Tab", Icon = "" }),    
+    Mt = Window:AddTab({ Title = "Material•Boss", Icon = "" }),    
+    De = Window:AddTab({ Title = "Fruit•Raid", Icon = "" }),    
+    St = Window:AddTab({ Title = "Status Tab", Icon = "" }),    
+    Lc = Window:AddTab({ Title = "Player Tab", Icon = "" }),   
+    RC = Window:AddTab({ Title = "Race V4 Tab", Icon = "" }),   
+    Se = Window:AddTab({ Title = "Sea Event Tab", Icon = "" }),   
+    Qs = Window:AddTab({ Title = "Item Tab", Icon = "" }),  
 }
 
 local Options = Fluent.Options
@@ -2222,24 +2228,24 @@ local Options = Fluent.Options
 do
 
 Tabs.About:AddParagraph({
-        Title = "Discord Server",
-        Content = "https://discord.com/invite/KW7FmvvK"
+        Title = "script by windyisreal",
+        Content = "coming soon nhin cc"
     })
 
 
 Tabs.About:AddParagraph({
         Title = "Developer",
-        Content = "@indexmewindy"
+        Content = "windyisreal"
     })
 
   Tabs.About:AddParagraph({
-        Title = "Script is Beta",
-        Content = "Have bug please report in discord"
+        Title = "Version",
+        Content = "Beta [ New ]"
     })
     
     Fluent:Notify({
-        Title = "さま┊Windy•Hub",
-        Content = "YAHHH",
+        Title = "Trash Hub V1",
+        Content = "Loading Success GG!",
         SubContent = "", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
@@ -7672,7 +7678,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "rbxassetid://17370843788"
+ImageButton1.Image = "rbxassetid://16935216231"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,"LeftControl",false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,"LeftControl",false,game)
